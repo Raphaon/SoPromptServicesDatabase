@@ -36,25 +36,25 @@
 
       <br/>
 
-      <form id="form1" name="form1" method="post" action="php/addServiceContract.php">
+      <form id="form1" name="form1" method="post" action="php/showMachineStatus.php">
         <div class="form-group">
-          <label for="text">Contract ID:</label>
-          <input type="contractid" class="form-control" id="contractid" placeholder="ex: cont1">
+          <label for="repairid">Repair ID:</label>
+          <input type="text" class="form-control" id="repairid" placeholder="ex: rpid1">
         </div>
         <div class="form-group">
-          <label for="startdate">Start Date:</label>
-          <input type="text" class="form-control" id="startdate" placeholder="ex: 15-JUN-2015">
+          <label for="customerphone">Customer Phone:</label>
+          <input type="text" class="form-control" id="customerphone" placeholder="ex: ’4081111234’">
         </div>
         <div class="form-group">
-          <label for="enddate">End Date:</label>
-          <input type="text" class="form-control" id="enddate" placeholder="ex: 15-JUN-2016">
+          <label for="customername">Customer Name:</label>
+          <input type="text" class="form-control" id="customername" placeholder="ex: Stephanie Curry">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
         <button type="reset" class="btn btn-default">Reset</button>
       </form>
 
+      </br>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>

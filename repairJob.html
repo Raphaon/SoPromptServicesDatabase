@@ -36,25 +36,49 @@
 
       <br/>
 
-      <form id="form1" name="form1" method="post" action="php/addServiceContract.php">
+      <form id="form1" name="form1" method="post" action="php/addRepairJob.php">
         <div class="form-group">
-          <label for="text">Contract ID:</label>
-          <input type="contractid" class="form-control" id="contractid" placeholder="ex: cont1">
+          <label for="repairid">Repair ID:</label>
+          <input type="text" class="form-control" id="repairid" placeholder="ex: rpid1">
         </div>
         <div class="form-group">
-          <label for="startdate">Start Date:</label>
-          <input type="text" class="form-control" id="startdate" placeholder="ex: 15-JUN-2015">
+          <label for="machineid">Machine ID:</label>
+          <input type="text" class="form-control" id="machineid" placeholder="ex: mach1">
         </div>
         <div class="form-group">
-          <label for="enddate">End Date:</label>
-          <input type="text" class="form-control" id="enddate" placeholder="ex: 15-JUN-2016">
+          <label for="startdatetime">Start DateTime:</label>
+          <input type="text" class="form-control" id="startdatetime" placeholder="ex: 15-JUN-2015 05:34:34">
+        </div>
+        <div class="form-group">
+          <label for="enddatetime">End DateTime:</label>
+          <input type="text" class="form-control" id="enddatetime" placeholder="ex: 15-JUN-2015 06:34:34">
+        </div>
+        <div class="form-group">
+          <label for="status">Status (0 or 1 or 2): </label>
+          <input type="number" class="form-control" id="status" placeholder="ex: 1">
+        </div>
+        <div class="form-group">
+          <label for="covered">Covered (0 or 1): </label>
+          <input type="number" class="form-control" id="covered" placeholder="ex: 0">
+        </div>
+        <div class="form-group">
+          <label for="repairpersonid">Repair Person ID:</label>
+          <input type="text" class="form-control" id="repairpersonid" placeholder="ex: remp1">
+        </div>
+        <div class="form-group">
+          <label for="problemid">Problem ID:</label>
+          <input type="text" class="form-control" id="problemid" placeholder="ex: prob1">
+        </div>
+        <div class="form-group">
+          <label for="customerid">Customer ID:</label>
+          <input type="text" class="form-control" id="customerid" placeholder="ex: cust1">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
         <button type="reset" class="btn btn-default">Reset</button>
       </form>
 
+      </br>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
